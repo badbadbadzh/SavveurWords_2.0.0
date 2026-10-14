@@ -1,0 +1,12 @@
+{
+  "name": "savveurwords",
+  "version": "2.0.0",
+  "private": true,
+  "description": "拯词 — vocabulary practice, local image OCR, memory review and vocabulary graphs",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node scripts/start.cjs",
+    "preview": "node scripts/preview.cjs",
+    "check": "node scripts/check.cjs"
+  }
+}

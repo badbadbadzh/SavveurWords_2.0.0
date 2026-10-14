@@ -1,0 +1,26 @@
+# Local accounts, sessions, service keys and user backups
+auth-data*.json*
+.service-key
+.env
+.env.*
+!.env.example
+*.log
+启动日志.txt
+data/
+backups/
+
+# Dependencies and optional local Node runtime (not source code)
+node_modules/
+runtime/
+*.exe
+
+# Local tooling and generated archives
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+coverage/
+test-results/
+playwright-report/
+*.zip
+.test-*
